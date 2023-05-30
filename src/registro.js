@@ -17,7 +17,7 @@ export default function Register() {
       if (email !== '' && password !== '') {
         await createUserWithEmailAndPassword(auth, email, password)
           .then(() => {
-            navigate('./pagina-principal', { replace: true })
+            navigate('/pagina-principal', { replace: true })
           })
           .catch(() => {
             console.log("ERRO AO FAZER O CADASTRO")
