@@ -191,7 +191,7 @@ function Pagprincipal() {
                         <label><strong>Id da tarefa:</strong></label>
                         <input className="colorin"
                             type="text"
-
+                             id="idnumber"
                             placeholder='Digite o ID do compromisso'
                             value={idTarefa}
                             onChange={(id) => setIdTarefa(id.target.value)}
@@ -203,6 +203,7 @@ function Pagprincipal() {
 
                         <input className="colorin"
                             type="text"
+                              id="titulo"
                             placeholder='Digite o titulo'
                             value={titulo}
                             onChange={(titulo) => setTitulo(titulo.target.value)}
@@ -219,9 +220,9 @@ function Pagprincipal() {
                         <div className="blocoP">
                         </div>
 
-                        <h5><strong>Alta prioridade</strong></h5>
-                        <h5 className="letraPop"><strong>Media prioridade</strong></h5>
-                        <h5 className="letraPop2"><strong>Baixa prioridade</strong></h5>
+                        <h5  id="altacheck"><strong>Alta prioridade</strong></h5>
+                        <h5      id="medcheck"className="letraPop"><strong>Media prioridade</strong></h5>
+                        <h5   id="baixacheck" className="letraPop2"><strong>Baixa prioridade</strong></h5>
                         <br />
                         <input className="checkboxPop"
                             type="checkbox"
@@ -261,6 +262,7 @@ function Pagprincipal() {
                         <label><strong>Data:</strong> </label>
                         <input className="colorin"
                             type="text"
+                                 id="horade"
                             placeholder=' Data de:'
                             value={datade}
                             onChange={(datade) => setDatade(datade.target.value)}
@@ -274,6 +276,7 @@ function Pagprincipal() {
 
                         <input className="ladinho"
                             type="text"
+                            id="atede"
                             placeholder='Até de:'
                             value={atede}
                             onChange={(atede) => setAtede(atede.target.value)}
@@ -284,9 +287,9 @@ function Pagprincipal() {
 
                         <labe><strong>Alarme:</strong></labe>
                         <select className="select">
-                            <option value="KICK BACK">KICK BACK</option>
-                            <option value="Kamatachi 6 balas">Kamatachu-6 balas</option>
-                            <option value="Outros">Outros</option>
+                            <option id="music1"value="KICK BACK">KICK BACK</option>
+                            <option id="music2" value="Kamatachi 6 balas">Kamatachu-6 balas</option>
+                            <option id="music3"value="Outros">Outros</option>
 
 
                         </select>
@@ -294,8 +297,8 @@ function Pagprincipal() {
 
                         <labe><strong>Frquencia:</strong></labe>
                         <select className="select">
-                            <option value="Apenas uma vez">Apenas uma vez</option>
-                            <option value="Varias veses">Varias veses</option>
+                            <option id="op1" value="Apenas uma vez">Apenas uma vez</option>
+                            <option id="op2" value="Varias veses">Varias veses</option>
 
 
 
