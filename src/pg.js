@@ -310,7 +310,7 @@ function Pagprincipal() {
                         <ul>
                             {posts.map((post) => {
                                 return (
-                                    <li>
+                                    <li id="mostralista">
                                         <strong>ID: {post.id}</strong><br />
                                         <span>Titulo: {post.titulo}</span><br />
                                         <span>Até de: {post.atede}</span><br />
