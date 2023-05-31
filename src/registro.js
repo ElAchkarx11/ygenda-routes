@@ -49,7 +49,7 @@ export default function Register() {
 
              
                 <br />
-                <button type="submit" >Cadastrar</button>
+                <button id="botaoRegistro"type="submit" >Cadastrar</button>
 
 
 </form>
