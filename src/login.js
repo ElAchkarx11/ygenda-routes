@@ -61,7 +61,7 @@ export default function Login() {
 
                     <a href="questA.html" />
 
-                    <button className='' type="submit" >Acessar</button>
+                    <button id="botaoLogin" type="submit" >Acessar</button>
                     <Link to={'/registro-escolhas'}><button >Registrar</button></Link>
 </form>
                 </div>
