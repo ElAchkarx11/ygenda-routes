@@ -360,30 +360,30 @@ function Pagprincipal() {
                     </div>
 
                     <div class="scrollmenu">
-                        <section><a onClick={togglePopup}>00HRS</a></section>
-                        <section><a onClick={togglePopup}>01HRS</a></section>
-                        <section><a onClick={togglePopup}>02HRS</a></section>
-                        <section><a onClick={togglePopup}>03HRS</a></section>
-                        <section><a onClick={togglePopup}>04HRS</a></section>
-                        <section><a onClick={togglePopup}>05HRS</a></section>
-                        <section><a onClick={togglePopup}>06HRS</a></section>
-                        <section><a onClick={togglePopup}>07HRS</a></section>
-                        <section><a onClick={togglePopup}>08HRS</a></section>
-                        <section><a onClick={togglePopup}>09HRS</a></section>
-                        <section><a onClick={togglePopup}>10HRS</a></section>
-                        <section><a onClick={togglePopup}>11HRS</a></section>
-                        <section><a onClick={togglePopup}>12HRS</a></section>
-                        <section><a onClick={togglePopup}>13HRS</a></section>
-                        <section><a onClick={togglePopup}>14HRS</a></section>
-                        <section><a onClick={togglePopup}>15HRS</a></section>
-                        <section><a onClick={togglePopup}>16HRS</a></section>
-                        <section><a onClick={togglePopup}>17HRS</a></section>
-                        <section><a onClick={togglePopup}>18HRS</a></section>
-                        <section><a onClick={togglePopup}>19HRS</a></section>
-                        <section><a onClick={togglePopup}>20HRS</a></section>
-                        <section><a onClick={togglePopup}>21HRS</a></section>
-                        <section><a onClick={togglePopup}>22HRS</a></section>
-                        <section><a onClick={togglePopup}>23HRS</a></section>
+                        <section id="section1"><a onClick={togglePopup}>00HRS</a></section>
+                        <section id="section2"><a onClick={togglePopup}>01HRS</a></section>
+                        <section id="section3"><a onClick={togglePopup}>02HRS</a></section>
+                        <section id="section4"><a onClick={togglePopup}>03HRS</a></section>
+                        <section id="section5"><a onClick={togglePopup}>04HRS</a></section>
+                        <section id="section6"><a onClick={togglePopup}>05HRS</a></section>
+                        <section id="section7"><a onClick={togglePopup}>06HRS</a></section>
+                        <section id="section8"><a onClick={togglePopup}>07HRS</a></section>
+                        <section id="section9"><a onClick={togglePopup}>08HRS</a></section>
+                        <section id="section10"><a onClick={togglePopup}>09HRS</a></section>
+                        <section id="section11"><a onClick={togglePopup}>10HRS</a></section>
+                        <section id="section12"><a onClick={togglePopup}>11HRS</a></section>
+                        <section id="section13"><a onClick={togglePopup}>12HRS</a></section>
+                        <section id="section14"><a onClick={togglePopup}>13HRS</a></section>
+                        <section id="section15"><a onClick={togglePopup}>14HRS</a></section>
+                        <section id="section16"><a onClick={togglePopup}>15HRS</a></section>
+                        <section id="section17"><a onClick={togglePopup}>16HRS</a></section>
+                        <section id="section18"><a onClick={togglePopup}>17HRS</a></section>
+                        <section id="section19"><a onClick={togglePopup}>18HRS</a></section>
+                        <section id="section20"><a onClick={togglePopup}>19HRS</a></section>
+                        <section id="section21"><a onClick={togglePopup}>20HRS</a></section>
+                        <section id="section22"><a onClick={togglePopup}>21HRS</a></section>
+                        <section id="section23"><a onClick={togglePopup}>22HRS</a></section>
+                        <section id="section24"><a onClick={togglePopup}>23HRS</a></section>
                     </div>
 
                     <div id="ProxAtv">
