@@ -315,7 +315,7 @@ function Pagprincipal() {
                                         <span>Titulo: {post.titulo}</span><br />
                                         <span>Até de: {post.atede}</span><br />
                                         <span> Data de: {post.datade}</span><br />
-                                        <button className="btn-pop" onClick={() => deletarCom(post.id)}>Excluir</button>
+                                        <button className="btn-pop-excluir" onClick={() => deletarCom(post.id)}>Excluir</button>
                                     </li>
                                 );
                             })}
