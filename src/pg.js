@@ -262,7 +262,7 @@ function Pagprincipal() {
                         <label><strong>Data:</strong> </label>
                         <input className="colorin"
                             type="text"
-                                 id="horade"
+                                 id="datade"
                             placeholder=' Data de:'
                             value={datade}
                             onChange={(datade) => setDatade(datade.target.value)}
