@@ -286,7 +286,7 @@ function Pagprincipal() {
                         <br />
 
                         <labe><strong>Alarme:</strong></labe>
-                        <select className="select">
+                        <select className="selectmusic">
                             <option id="music1"value="KICK BACK">KICK BACK</option>
                             <option id="music2" value="Kamatachi 6 balas">Kamatachu-6 balas</option>
                             <option id="music3"value="Outros">Outros</option>
@@ -296,7 +296,7 @@ function Pagprincipal() {
                         <br />
 
                         <labe><strong>Frquencia:</strong></labe>
-                        <select className="select">
+                        <select className="selectop">
                             <option id="op1" value="Apenas uma vez">Apenas uma vez</option>
                             <option id="op2" value="Varias veses">Varias veses</option>
 
